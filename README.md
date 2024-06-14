@@ -101,7 +101,7 @@ Hi Alex,
   Thankyou for reaching out via email and yes we can definitely provide the website services the SAM is wanting to encourage people to visit. I will
 briefly explain who we are , what we do and our thoughts on how we can provide a dynamic website for the SAM.
   We are 'Awesome Websites Australia' and we have been building, evaluating and supporting company & community websites for over 15 years. We are based in
-Sydney but have many clients all around the country and overseas. We have all the technologies and tools required to facilitate this which allows us to be very cost effective, provide a full stack service from begining to end, so you can put your mind at rest that everything is covered. These include:
+Sydney but have many clients all around the country and overseas. We have all the technologies and tools required to facilitate this which allows us to be very cost effective, provide a full stack service from begining to end so you can put your mind at rest that everything is covered. These include:
   a.  Our customer service team will liase with you directly and in person to specifically gather the SAM requirements, information needed and images to be used.
   b.  Our design team uses their own wireframing program, colour palettes matching, understanding of design standards to facilitate people with disabilities.
   c.  The development team will build the website in house using the best practice standards for html, css and javascript.
@@ -125,6 +125,13 @@ Darren Small.
 
 ### Question 7 Answers :
 ~~~
+
+
+~~~
+
+### Question 8 Answers :
+~~~
+Action Plan For Networking Events Or Workshops:
 
 
 
