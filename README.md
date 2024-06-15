@@ -5,9 +5,9 @@
 The following markup languages are used in web development:
  - HTML : HyperText Markup Language is used to create website pages. HTML defines the layout, structure and content displayed by defining different elements or tags in specific locations to render the appearence of text, images , multimedia or links to other files to display in a web browser. A element is placed by starting with a tag name (case sensitive) inside of a opening pair of "<" *name* ">", then the element content to display (not in all cases), and ended with the same tag name closed by a pair of "</" *name* ">". Some important must have element tags are `<html></html>, <head></head>, <title></title>, <body></body>` . Others are `<header>, <footer>, <p>, <img>, <article>, <section>, <div>, <ul>, <ol>, <li>.`
 
- - XML : eXtensible Markup Language is used to store and transfer data.It is different to HTML in that the document creator can define the tags and structure. XML tags are customised for the purposes of the document being sent, but are enclosed in the same opening and closing angle brackets. The XML language is a standardised format so all different types of applications can interpret the same data.
+ - XML : EXtensible Markup Language is used to store and transfer data.It is different to HTML in that the document creator can define the tags and structure. XML tags are customised for the purposes of the document being sent, but are enclosed in the same opening and closing angle brackets. The XML language is a standardised format so all different types of applications can interpret the same data.
 
- - XHTML : eXtensible HyperText Markup Language is a combination between both HTML & XML. It combines the presentation functions of HTML but with the strict standardised rules of XML. The XHTML syntax is very strict and each page needs to include one of 3 types of DTD (Document Type Definition) declarations. These XHTML element tags are mandatory in a document:  <!DOCTYPE> , `<html></html>`, a "xmlns" attribute must be in the `<html>` tag, `<head></head>, <title></title>, <body></body>`. The XHTML elements must also be in lowercase, properly nested and always closed.
+ - XHTML : EXtensible HyperText Markup Language is a combination between both HTML & XML. It combines the presentation functions of HTML but with the strict standardised rules of XML. The XHTML syntax is very strict and each page needs to include one of 3 types of DTD (Document Type Definition) declarations. These XHTML element tags are mandatory in a document:  <!DOCTYPE> , `<html></html>`, a "xmlns" attribute must be in the `<html>` tag, `<head></head>, <title></title>, <body></body>`. The XHTML elements must also be in lowercase, properly nested and always closed.
 ~~~
 [Ref1](https://developer.mozilla.org/en-US/) , [Ref2](https://wpamelia.com/markup-languages/) , [Ref3](https://www.w3schools.com/)
 
@@ -113,7 +113,7 @@ Sydney but have many clients all around the country and overseas. We have all th
                 - this will include a navigation bar with links to other pages such as : Featured Items , From Around The World , Our Location , Contact Us.
   2.  Featured Items Page - we think this page will be dedicated to the museums featured items or most popular pieces. This page is designed to draw the publics interest for those special famous items to see and can be continually be updated as newer items come in or older items move out of interest.
   3.  From Around The World Page - this page can have a dynamic map of the world where users can be involved and interact with a 'Select A Country' map, which then opens a page displaying the Items the museum has from this country with information explaining the history, artist etc about each piece.
-  4.  Our Location Page - this page will have the SAM location address with a Google maps area & location pin displayed. Differnt modes of transport to visit can also be shown for the public to know how easy it is to find the SAM. EG: If Train - then disembark at central station & catch bus T102 for 4 stops.
+  4.  Our Location Page - this page will have the SAM location address with a Google maps area & location pin displayed. Differnt modes of transport to visit can also be shown for the public to know how easy it is to find the SAM. EG: If Train, then disembark at central station & catch bus T102 for 4 stops.
   5.  Contact Us Page - this will have all the SAM's contact details and social media links.
 
 Any other features you think would be required like ticket sales, donations or news letter registration and delivery can be discussed in the future.
@@ -125,13 +125,21 @@ Darren Small.
 
 ### Question 7 Answers :
 ~~~
+The Situation: - Being employed as a Product Owner, we designed, produced and sold medication packing materials. We also included in our packaging supplies a sofware program for pharmacies to use to print the patients medication details on these packaging materials. This software program had been used for a long time before my employment and was becoming very old & outdated for the changing legal requirements required. So the decision was made to create and release a new software program. The company appointed a software development company for this task and I was in the lead team for project management.
+  We supplied the developers a copy of our current program and the new requirements we needed in the new program.
+  The Developers supplied us with a beta version for testing / reviewing BUT the program was not what we were expecting and didnt meet the needs our clients would require for efficient productivity.
+  Eventually with alot of back and forth and numerous beta testing versions, we did get the program our clients would be happy with & released.
 
+My Feelings On The Situation: - I was excited & looked forward on being involved in this project as I had never done anything like this before with software or internet based products. But I remember on that first beta test review being very disappointed and nervous that we had stuffed this up !! On reflection my feelings are it was a very big learning curve on how to approach such a project.
+
+Analysis And Future Courses Of Action:  - We were not specific enough in relaying the requirements our program needed to meet our clients needs or even the designs we had in our heads for it. In our documents the requirements were to general and then the developers did their own interpretation of what they thought we needed.
+  In future I see that any / all requirement documents will need to be very specific. They will need to include the design we are thinking of , very specific legal reqiurements needed and the exact workflow we expect to happen.
 
 ~~~
 
 ### Question 8 Answers :
 ~~~
-Action Plan For Networking Events Or Workshops:
+Action Plan For Networking Events Or Workshops: 
 
 
 
