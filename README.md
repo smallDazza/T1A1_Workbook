@@ -140,6 +140,7 @@ Analysis And Future Courses Of Action:  - We were not specific enough in relayin
 ### Question 8 Answers :
 ~~~
 Action Plan For Networking Events Or Workshops: 
+One event I am attending is : ![MongoDB.local Sydney](https://www.mongodb.com/events/mongodb-local/sydney)
 
 
 
