@@ -3,11 +3,11 @@
 ### Question 1 Answers: 
 ~~~
 The following markup languages are used in web development:
- - HTML : HyperText Markup Language is used to create website pages. HTML defines the layout, structure and content displayed by defining different elements or tags in specific locations to render the appearence of text, images , multimedia or links to other files to display in a web browser. A element is placed by starting with a tag name (case sensitive) inside of a opening pair of "<" *name* ">", then the element content to display (not in all cases), and ended with the same tag name closed by a pair of "</" *name* ">". Some important must have element tags are `<html></html>, <head></head>, <title></title>, <body></body>` . Others are `<header>, <footer>, <p>, <img>, <article>, <section>, <div>, <ul>, <ol>, <li>.`
+ - HTML : HyperText Markup Language is used to create website pages. HTML defines the layout, structure and content displayed by defining different elements or tags in specific locations to render the appearance of text, images, multimedia or links to other files to display in a web browser. A element is placed by starting with a tag name (case sensitive) inside of a opening pair of "<" *name* ">", then the element content to display (not in all cases), and ended with the same tag name closed by a pair of "</" *name* ">". Some important must have element tags are `<html></html>, <head></head>, <title></title>, <body></body>` . Others are `<header>, <footer>, <p>, <img>, <article>, <section>, <div>, <ul>, <ol>, <li>.`
 
  - XML : EXtensible Markup Language is used to store and transfer data.It is different to HTML in that the document creator can define the tags and structure. XML tags are customised for the purposes of the document being sent, but are enclosed in the same opening and closing angle brackets. The XML language is a standardised format so all different types of applications can interpret the same data.
 
- - XHTML : EXtensible HyperText Markup Language is a combination between both HTML & XML. It combines the presentation functions of HTML but with the strict standardised rules of XML. The XHTML syntax is very strict and each page needs to include one of 3 types of DTD (Document Type Definition) declarations. These XHTML element tags are mandatory in a document:  <!DOCTYPE> , `<html></html>`, a "xmlns" attribute must be in the `<html>` tag, `<head></head>, <title></title>, <body></body>`. The XHTML elements must also be in lowercase, properly nested and always closed.
+ - XHTML : EXtensible HyperText Markup Language is a combination between both HTML & XML. It combines the presentation functions of HTML but with the strict standardised rules of XML. The XHTML syntax is very strict, and each page needs to include one of 3 types of DTD (Document Type Definition) declarations. These XHTML element tags are mandatory in a document:  <!DOCTYPE> , `<html></html>`, a "xmlns" attribute must be in the `<html>` tag, `<head></head>, <title></title>, <body></body>`. The XHTML elements must also be in lowercase, properly nested and always closed.
 
 References:
 Radic, Z., 2019. Markup Languages: What They’re All About. [Online] 
@@ -20,7 +20,7 @@ Available at: https://www.w3schools.com/
 
 ### Questions 2 Answers:
 ~~~ 
-- packets : A packet is a unit of data that is gouped togther and sent over a network or the internet. Each packet has the information it needs to get to its destination like receivers IP address, senders IP address, how many packets the message or file is broken into and the number of each packet.
+- packets : A packet is a unit of data that is grouped together and sent over a network or the internet. Each packet has the information it needs to get to its destination like receivers IP address, senders IP address, how many packets the message or file is broken into and the number of each packet.
 
 - IP addresses (IPv4 and IPv6)  : IP addresses are used to identify the computers / devices of both sending and receiving over a network or the internet. IPv4 IP addresses use a 32bit format and broken into 4 parts, example: 172.0.68.109. IPv6 uses 128 bit format, also include letters and use colons to separate segments, example: fe80::26f0:1ffe:b96c:93b9%12.
 
@@ -30,7 +30,7 @@ Available at: https://www.w3schools.com/
 - Domains and DNS : A domain is the host name or address of a website that users type in their browser url area to visit that website.
   - DNS is short for Domain Name System which essentially translates website domain names into IP addresses. It is a global network of servers that acts like a giant directory to convert domain names into IP addresses & vice versa.
 
-- Explain how each technology has contributed to the development of the internet: Each technology has vastly increased the development of the internet. As computers, mobile phones and all other types of devices have better technology and applications with the ability to access the internet, all will be assigned IP addresses, sending / receiving increased amount of data packets , which results in the need for better routers, so devices can access more & more domain names which results in the need for better DNS servers. 
+- Explain how each technology has contributed to the development of the internet: Each technology has vastly increased the development of the internet. As computers, mobile phones and all other types of devices have better technology and applications with the ability to access the internet, all will be assigned IP addresses, sending / receiving increased amount of data packets, which results in the need for better routers, so devices can access more & more domain names which results in the need for better DNS servers. 
 
 References:
 Yasar, K., 2023. Definition: Network packet. [Online] 
@@ -49,15 +49,15 @@ Available at: https://www.techtarget.com/searchnetworking/definition/domain-name
  ### Questions 3 Answers (50 - 150 words for each technology):
  ~~~
 - TCP : TCP stands for Transmission Control Protocol and is a standard protocol for ensuring successful communication deliveries between devices over a network or the internet. The TCP resides in the transport OSI layer and its role in the communications between devices is to ensure the establishment of a connection and that all data has been delivered correctly. It does this by working in collaboration with Internet Protocol rules.
-  TCP delivery has continually been developing between client & server since its creation back in the early 1970's. It was first designed for the US department of defense and then in the 1980's helped with the development of the internet to be a world wide network. One way TCP works between Server and client devices by a web server setting up a connection when asked by the HTTP layer, then the TCP stack will divide the file into numbered packets to be delivered and send them to the IP layer for delivery. 
+  TCP delivery has continually been developing between client & server since its creation back in the early 1970's. It was first designed for the US department of defence and then in the 1980's helped with the development of the internet to be a world wide network. One way TCP works between Server and client devices by a web server setting up a connection when asked by the HTTP layer, then the TCP stack will divide the file into numbered packets to be delivered and send them to the IP layer for delivery. 
   The TCP layer in the client device will wait and confirm all numbered packets have been received correctly, then assembles all the packets back into the file and send it to the application required.
 
 - HTTP and HTTPS  : Hypertext Transfer Protocol is a set of communication rules between client & server. This protocol is the communications foundation of the internet for browsers and servers, but data transmitted is unencrypted. So in the 1990's a more secure protocol of http was developed called https = Hypertext Transfer Protocol Secure. The http is an application layer protocol that interprets different types of requests and responses between client & server. When wanting to view data from a website the client http protocol will send a series of "GET" requests to the server to ask for all the information it needs to load the webpage. To send information to the server (like a form), the client http protocol will send a "PUT" request.
   The server will also send back coded responses to these requests, some examples are: 400 = Bad Request, 404 = Resource Not Found.
   Https works in the same way but adds an extra layer of security by combining the requests & responses with SSL & TLS certificates. These are shared by the client and server before exchanging data to verify a trusted connection.
 
-- Web Browsers (requests, rendering and developer tools)  : Web Browsers are an application software for accessing and viewing websites over the internet. Using the http / https protocols between a client and server to receive the information requested , the browser will then compile the web documents to render them in html which is used to design web pages and display to the user the web sites content. Web browser features can include: a home page, URL address bar, navigation buttons, bookmark options, history of visited websites and refresh button.
-Current web browsers will also include developer tools. These are tools that allow users to inspect & debug the rendered web sites html , css and javascript properties. Developers will use these to help in buiding better websites, diagnosing any problems and measuring its performance all in realtime as they view / build the web page.
+- Web Browsers (requests, rendering and developer tools)  : Web Browsers are an application software for accessing and viewing websites over the internet. Using the http / https protocols between a client and server to receive the information requested, the browser will then compile the web documents to render them in html which is used to design web pages and display to the user the web sites content. Web browser features can include: a home page, URL address bar, navigation buttons, bookmark options, history of visited websites and refresh button.
+Current web browsers will also include developer tools. These are tools that allow users to inspect & debug the rendered web sites html , css and javascript properties. Developers will use these to help in building better websites, diagnosing any problems and measuring its performance all in real time as they view / build the web page.
 
 References:
 Kinza Yasar, B. L., 2021. Definition: Transmission Control Protocol (TCP). [Online] 
@@ -82,7 +82,7 @@ Available at: https://www.okta.com/au/identity-101/http-vs-https/
         - An interpreter executes a high-level language line by line while the program is running.
         - Better for debugging as runs each line sequentially until a error occurs.
         - Memory required is less than a compiler.
-        - If interupted at any point, must restart from the begining.
+        - If interrupted at any point, must restart from the beginning.
         - Relatively flexible.
 
     - Compilers: 
@@ -109,7 +109,7 @@ Compare 2 Programming Languages.
     - easy to learn and the simple syntax makes faster to write which increases productivity.
     - well known for its ready to use modules and libraries.
     - multiple varieties of numeric data types.
-    - open source with a large world wide communtiy.
+    - open source with a large world wide community.
 
   - Javascript:
     - used for user functionality in web development.
@@ -148,7 +148,7 @@ Hi Alex,
 briefly explain who we are , what we do and our thoughts on how we can provide a dynamic website for the SAM.
   We are 'Awesome Websites Australia' and we have been building, evaluating and supporting company & community websites for over 15 years. We are based in
 Sydney but have many clients all around the country and overseas. We have all the technologies and tools required to facilitate this, which allows us to be very cost effective and provide a full stack service from beginning to end so you can put your mind at rest that everything is covered. These services include:
-  a.  Our customer service team will liase with you directly and in person to specifically gather the SAM requirements, information needed and images to be used.
+  a.  Our customer service team will liaise with you directly and in person to specifically gather the SAM requirements, information needed and images to be used.
   b.  Our design team uses their own wireframing program, colour palettes matching, understanding of design standards to facilitate people with disabilities.
   c.  The development team will build the website in house using the best practice standards for html, css and javascript.
   d.  We can do all the legal registrations needed, deploy live to the internet and update whenever required. All our teams are trained and will abide by the Australian regulations for privacy & security of company and personal information.  
@@ -157,12 +157,12 @@ Sydney but have many clients all around the country and overseas. We have all th
   Our staff have briefly put together some ideas for the SAM website, which will give you an idea of their expertise :
   1.  Home Page - the first landing page to show who the SAM is with dynamic images of your best pieces from around the world.
                 - this will include a navigation bar with links to other pages such as : Featured Items , From Around The World , Our Location , Contact Us.
-  2.  Featured Items Page - we think this page will be dedicated to the museums featured items or most popular pieces. This page is designed to draw the publics interest for those special famous items to see and can be continually be updated as newer items come in or older items move out of interest.
+  2.  Featured Items Page - we think this page will be dedicated to the museums featured items or most popular pieces. This page is designed to draw the public's interest for those special famous items to see and can be continually updated as newer items come in or older items move out of interest.
   3.  From Around The World Page - this page can have a dynamic map of the world where users can be involved and interact with a 'Select A Country' map, which then opens a page displaying the Items the museum has from this country with information explaining the history, artist etc about each piece.
-  4.  Our Location Page - this page will have the SAM location address with a Google maps area & location pin displayed. Differnt modes of transport to visit can also be shown for the public to know how easy it is to find the SAM. EG: If Train, then disembark at central station & catch bus T102 for 4 stops.
+  4.  Our Location Page - this page will have the SAM location address with a Google maps area & location pin displayed. Different modes of transport to visit can also be shown for the public to know how easy it is to find the SAM. EG: If Train, then disembark at central station & catch bus T102 for 4 stops.
   5.  Contact Us Page - this will have all the SAM's contact details and social media links.
 
-Any other features you think would be required like ticket sales, donations or news letter registration and delivery can be discussed in the future.
+Any other features you think would be required like ticket sales, donations or newsletter registration and delivery can be discussed in the future.
 
 I hope this explains and meets your expectations for the SAM website, please feel free to contact me further and I look forward to moving forward together.
 Kind Regards,
@@ -173,7 +173,7 @@ Awesome Websites Australia.
 
 ### Question 7 Answers :
 ~~~
-Situation 1: - Being employed as a Product Owner, we designed, produced and sold medication packing materials. We also included in our packaging supplies a sofware program for pharmacies to use to print the patients medication details on these packaging materials. This software program had been used for a long time before my employment and was becoming very old & outdated for the changing legal requirements required. So the decision was made to create and release a new software program. The company appointed a software development company for this task and I was in the lead team for project management.
+Situation 1: - Being employed as a Product Owner, we designed, produced and sold medication packing materials. We also included in our packaging supplies a software program for pharmacies to use to print the patients medication details on these packaging materials. This software program had been used for a long time before my employment and was becoming very old & outdated for the changing legal requirements required. So the decision was made to create and release a new software program. The company appointed a software development company for this task and I was in the lead team for project management.
   We supplied the developers a copy of our current program and the new requirements we needed in the new program.
   The Developers supplied us with a beta version for testing / reviewing BUT the program was not what we were expecting and didnt meet the needs, our clients would require for efficient productivity.
   Eventually with alot of back and forth and numerous beta testing versions, we did get the program our clients would be happy with & released.
@@ -199,10 +199,10 @@ Analysis And Future Courses Of Action 2:  - Following the company procedures was
 Action Plan For Networking Events Or Workshops: 
 Event 1:  - I am attending for my current job: ![MongoDB.local Sydney](https://www.mongodb.com/events/mongodb-local/sydney)
  In my current job, the software application the company supplies uses a MongoDB database. My knowledge about MongoDB is limited to how our services use and relate to it and from what the companies Dev team have explained to me.
- Even though I am just starting out on my full stack development journey, my particular interest is in the backend area of development (databases, API etc), so from the different workshops availabale I am curious to find out how MongDB is being used more widely in the industry. 
+ Even though I am just starting out on my full stack development journey, my particular interest is in the backend area of development (databases, API etc), so from the different workshops available I am curious to find out how MongDB is being used more widely in the industry. 
  
 Action Plan 1: 
- - Workshops I plan to attend are 'Methodology and Principles of Data Modeling for MongDB' + 'Building event-driven applications with Atlas Stream Processing', im hoping these workshops will provide insite and knowledge into some of the features mongoDB offer that I might be able to bring to our team at work.
+ - Workshops I plan to attend are 'Methodology and Principles of Data Modelling for MongDB' + 'Building event-driven applications with Atlas Stream Processing', im hoping these workshops will provide insite and knowledge into some of the features mongoDB offer that I might be able to bring to our team at work.
  - Networking side of the event, I would like to speak to some developers and find out how they use MongDB and in general what they do, the applications they work on and how they started out in the industry. As im trying to start out in this industry, id like to speak to some experienced developers on how they did it and their advice on what to do / not to do.
 
 Event 2:  - Online workshop Coder Academy, 20th June 2024, 6pm: 'Interviews, Preparation and How to get the most out of them!' - this is a webinar with a experienced software engineer who is experienced in helping other developers land new jobs, skills or promotions.
@@ -223,7 +223,7 @@ Action Plan 3:
 There are multiple uses for LLM technologies on written and technical works such as reports and projects, these are:
 
 - Gathering Information Faster: Information gathering for any report or project is a very time consuming exercise, either by using google, reading through websites, articles and books. Because of the huge amount of data and resources these LLM technologies have access to, it can produce/list the information required from multiple sources within a fraction of the time compared to gathering manually.
-  - Example: A Doctor can produce a diagnosis or medication research report instantly wheil in consultation with a petient.
+  - Example: A Doctor can produce a diagnosis or medication research report instantly while in consultation with a patient.
 
 - Documentation Creation: LLM's can quickly generate many different types of draft documents quicker. Users just need to input their main points or provide an outline and the LLM will output the layout and content of the draft document required.
   - Example: A Project Manager can produce a project draft quotation on the details and costings of the project for the client.
@@ -231,7 +231,7 @@ There are multiple uses for LLM technologies on written and technical works such
 - Using Natural Language: Reports & projects generated by LLM's will include insights and explanations provided in a natural language. This will make them easier for wider public access and any outcomes to be actioned faster.
   -Example: A Sales Manager can produce a sales report detailing all the sales figures and providing explanations for fluctuations and recommendations for future sales growth.
 
-- Data Access In Real Time: Any stakeholder data access or analytics required will be available and reported in real time. This provides real time reliability and accurucy of data provided in LLM generated reports or projects.
+- Data Access In Real Time: Any stakeholder data access or analytics required will be available and reported in real time. This provides real time reliability and accuracy of data provided in LLM generated reports or projects.
   - Example: A financial institution can provide real time stock market reports with stock prices, trends and recommendations which traders respond to straight away. 
 
 - Customised Project Documents: LLM's can be used for suggested requirements for customised documents such as technical documentation, user manuals, installation guides and release notes, which can be used for software / application projects.
@@ -253,12 +253,12 @@ Listed below are the legal and ethical impacts of using LLM technologies on writ
 - Copyright Infringement - because LLM technologies are trained on a huge amount of data, they may produce content that is similar or identical to existing copyrighted material, which if used could be legally infringing on this material.
   - Example: Software project documentation may reference the same application features of a current registered product. 
 
-- Data Privacy - LLM's could generate content that include personal or sensitve data information which could violate Privacy laws. 
+- Data Privacy - LLM's could generate content that include personal or sensitive data information which could violate Privacy laws. 
 
 - Accuracy And Reliability - because LLM technologies are trained on a huge amount of data, it may not provide the most accurate or reliable information on a particular topic. Content provided must always be checked for any bias or inaccurate referencing.
   - Example:  Can be used to produce legal documents such as contracts. They should still be reviewed and edited by a legal professional to ensure they are accurate and legally binding.
 
-- MisInterpretation - This could also be used unethically to spread false and misleading information about individuals or companies.
+- Misinterpretation - This could also be used unethically to spread false and misleading information about individuals or companies.
   - Example: Could be used to generate or promote a conspiracy theory against a political party or politician.
 
 
@@ -279,7 +279,7 @@ Soft Skills - This term is used as a synonym for people skills or emotional inte
 
 - Time Management:  Software developers can spend alot of time working by themselves. To be able to effectively manage your time and job allocation on specific tasks is essential for effective project management. It is also essential to meet the task time lines provided as to not go over the estimation provided on the project. 
 
-- Accountability: Mistakes will always happen. This skill will mean in software development taking responsability for mistakes made and learning from them, so they can be prevented from happening again. 
+- Accountability: Mistakes will always happen. This skill will mean in software development taking responsibility for mistakes made and learning from them, so they can be prevented from happening again. 
 
 - Self Awareness: For developers to be self confident in what they know but be able to acknowledge what they do not understand. This enables team members to rely on one another and help each other for the common goal of finishing the project.
 
@@ -311,7 +311,7 @@ Available at: https://www.linkedin.com/pulse/top-hard-skills-land-job-software-d
 The roles you will find in a medium sized software development company are:
 
 - Project Manager:
-- This role has the responsibility of leading the whole team through each projects SDLC. They are a good leader with effective communication skills, problem solving abilities and making sure all projects meet the development principles, timelines and within budgets. Their responsibilities also extend to negotiating and maintaining the expectations of stakeholders.
+- This role has the responsibility of leading the whole team through each project SDLC. They are a good leader with effective communication skills, problem solving abilities and making sure all projects meet the development principles, timelines and within budgets. Their responsibilities also extend to negotiating and maintaining the expectations of stakeholders.
 
 - Product Owner:
 - This role is a key position between the stakeholders requirements and the developers. Their responsibilities are providing the product developments direction in organising the tasks and backlog priorities for achieving the projects objectives. They must have effective communication, team management and technical skills to steer the project towards a successful outcome.
