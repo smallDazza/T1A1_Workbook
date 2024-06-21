@@ -79,16 +79,16 @@ Available at: https://www.okta.com/au/identity-101/http-vs-https/
  ~~~
  - Interpreters / Compilers Features & Differences:
     - Interpreters: 
-        - An interpreter executes a high-level language line by line while the program is running.
-        - Better for debugging as runs each line sequentially until a error occurs.
+        - An interpreter is a computer program that reads source code in a high-level language like Python, Javascript and Ruby, and executes it line by line while the program is running. Because it converts into a lower-level language (machine code) in a sequential process, they generally tend to be slower than compilers.
+        - But Interpreters are better for debugging code, because as it runs each line sequentially until a error occurs, they can easily be idendified and fixed.
         - Memory required is less than a compiler.
         - If interrupted at any point, must restart from the beginning.
-        - Relatively flexible.
+        - Relatively more flexible.
 
     - Compilers: 
-        - A compiler executes a high-level language into a lower-level language, like machine code, in whole for the entire program.
+        - A compiler is a program that executes a high-level language such as C, C++ and Java, into a lower-level language (machine code), in whole for the entire program. The resulting entire program compiled code can be executed directly by a computers hardware, which is done by producing the output as an executable program file.
         - Compilers will operate quicker than interpreters.
-        - After compiling the entire code it returns all errors. This makes it harder to locate and fix them.
+        - After compiling the entire program code it will return all/any errors. This makes it much harder to locate and fix them.
         - Larger in size compared to interpreters.
         - Not flexible.
 
@@ -97,6 +97,8 @@ Omer, M., 2023. Compilers vs. Interpreters: How They Work?. [Online]
 Available at: https://www.linkedin.com/pulse/compilers-vs-interpreters-how-work-monzer-omer
 The Computing Teacher, 2020. Compiler / Interpreter Difference. [Online] 
 Available at: https://www.thecomputingteacher.com/csc/index.php/programming/206-compiler-and-interpreter
+Ben Sassi, R, 2023. Compiler vs Interpreter. [Online]
+Available at: https://builtin.com/software-engineering-perspectives/compiler-vs-interpreter
 
  ~~~
 
@@ -113,7 +115,7 @@ Compare 2 Programming Languages.
 
   - Javascript:
     - used for user functionality in web development.
-    - many application uses in browser, desktop, mobile, server.
+    - many device application uses, such as browser, desktop, mobile, server.
     - known for its speed to execute on the clients side, resulting in less reliance on server side resources.
     - a multi-threading feature makes it highly scalable for application growth.
     - continually updated for improvements.
