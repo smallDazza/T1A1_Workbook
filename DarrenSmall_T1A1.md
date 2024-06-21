@@ -86,7 +86,7 @@ Available at: https://www.okta.com/au/identity-101/http-vs-https/
         - Relatively more flexible.
 
     - Compilers: 
-        - A compiler is a program that executes a high-level language such as C, C++ and Java, into a lower-level language (machine code), in whole for the entire program. The resulting entire program compiled code can be executed directly by a computers hardware, which is done by producing the output as an executable program file.
+        - A compiler is a program that executes a high-level language such as C, C++ and Java, into a lower-level language (machine code), in whole for the entire program. The resulting compiled code of the entire program can be executed directly by a computers OS, which is done by producing the output as an executable program file.
         - Compilers will operate quicker than interpreters.
         - After compiling the entire program code it will return all/any errors. This makes it much harder to locate and fix them.
         - Larger in size compared to interpreters.
