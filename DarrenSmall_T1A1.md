@@ -106,32 +106,18 @@ Available at: https://builtin.com/software-engineering-perspectives/compiler-vs-
 ~~~
 Compare 2 Programming Languages.
 - Benefits.
-  - Python:
-    - mostly used for back end development.
-    - easy to learn and the simple syntax makes faster to write which increases productivity.
-    - well known for its ready to use modules and libraries.
-    - multiple varieties of numeric data types.
-    - open source with a large world wide community.
+  - Python: 
+  - The Python language has a simple syntax and format which makes it easier to learn and faster to write code, which for developers will increase their productivity in programming projects. It is also known for its ready to use modules, packages and libraries that can be imported into any Python files or projects. Compared to JS, Python considers everything as an object and supports mutability and it has multiple varieties of numeric data types. It is free and open source with a large world wide community of followers for help and support.
 
   - Javascript:
-    - used for user functionality in web development.
-    - many device application uses, such as browser, desktop, mobile, server.
-    - known for its speed to execute on the clients side, resulting in less reliance on server side resources.
-    - a multi-threading feature makes it highly scalable for application growth.
-    - continually updated for improvements.
+  - The Javascript language is used for user functionality in web development and is preferred in this area for its high performance speed and real time interactions compared to Python. It can be used for both the front end & back end sides of applications and also has a multi-threading feature making it highly scalable for application growth. Another benefit is it and can easily integrate with other languages like Python.
 
 - Drawbacks.
   - Python:
-    - slower to execute code, as does it on a line by line basis.
-    - memory usage is greater.
-    - less scalable as only works on a one-threading feature.
-    - no mobile phone natively runs python.
+  - Python execution speed can be relatively slower because it does it on a line by line basis which also contributes to greater memory usage. It is also much less scalable if application growth is required because it uses a global interpreter lock that runs only one thread at a time. Another drawback for Python is it is not suitable for mobile development as there is no mobile native support.
   
   - Javascript:
-    - syntax uses a variety of symbols making it harder to read / learn.
-    - not many in built modules.
-    - limited set of numeric data types.
-    - debugging errors are more complicated as may only appear at runtime.
+  - Javascript language syntax uses a variety of different symbols, making it harder to read and learn. It also has a limited set of numeric data types, objects and arrays are immutable and does not have many in built modules. Some other drawbacks for Javascript code are it can be visible to anyone and debugging errors are more complicated as may only appear at runtime.
 
 References:
 Infosystem, H., 2024. Python vs JavaScript: An In-Depth Comparison. [Online] 
