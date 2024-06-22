@@ -3,7 +3,7 @@
 ### Question 1 Answers: 
 ~~~
 The following markup languages are used in web development:
- - HTML : HyperText Markup Language is used to create website pages. HTML defines the layout, structure and content displayed by defining different elements or tags in specific locations to render the appearance of text, images, multimedia or links to other files to display in a web browser. A element is placed by starting with a tag name (case sensitive) inside of a opening pair of "<" *name* ">", then the element content to display (not in all cases), and ended with the same tag name closed by a pair of "</" *name* ">". Some important must have element tags are `<html></html>, <head></head>, <title></title>, <body></body>` . Others are `<header>, <footer>, <p>, <img>, <article>, <section>, <div>, <ul>, <ol>, <li>.`
+ - HTML : HyperText Markup Language is used to create website pages. HTML defines the layout, structure and content displayed by defining different elements or tags in specific locations to render the appearance of text, images, multimedia or links to other files to display in a web browser. An element is placed by starting with a tag name (case sensitive) inside of an opening pair of "<" *name* ">", then the element content to display (not in all cases), and ended with the same tag name closed by a pair of "</" *name* ">". Some important must have element tags are `<html></html>, <head></head>, <title></title>, <body></body>` . Others are `<header>, <footer>, <p>, <img>, <article>, <section>, <div>, <ul>, <ol>, <li>.`
 
  - XML : EXtensible Markup Language is used to store and transfer data.It is different to HTML in that the document creator can define the tags and structure. XML tags are customised for the purposes of the document being sent, but are enclosed in the same opening and closing angle brackets. The XML language is a standardised format so all different types of applications can interpret the same data.
 
@@ -30,7 +30,7 @@ Available at: https://www.w3schools.com/
 - Domains and DNS : A domain is the host name or address of a website that users type in their browser url area to visit that website.
   - DNS is short for Domain Name System which essentially translates website domain names into IP addresses. It is a global network of servers that acts like a giant directory to convert domain names into IP addresses & vice versa.
 
-- Explain how each technology has contributed to the development of the internet: Each technology has vastly increased the development of the internet. As computers, mobile phones and all other types of devices have better technology and applications with the ability to access the internet, all will be assigned IP addresses, sending / receiving increased amount of data packets, which results in the need for better routers, so devices can access more & more domain names which results in the need for better DNS servers. 
+- Explain how each technology has contributed to the development of the internet: Each technology has vastly increased the development of the internet. As computers, mobile phones and all other types of devices have better technology with applications to access the internet, all these devices will be assigned IP addresses. This continually increases the amount of data packets being sent & received, which  will always result in the need for better routers & technology. The more devices are accessing more & more domain names, will also result in the need for better DNS servers. 
 
 References:
 Yasar, K., 2023. Definition: Network packet. [Online] 
@@ -48,13 +48,13 @@ Available at: https://www.techtarget.com/searchnetworking/definition/domain-name
 
  ### Questions 3 Answers (50 - 150 words for each technology):
  ~~~
-- TCP : TCP stands for Transmission Control Protocol and is a standard protocol for ensuring successful communication deliveries between devices over a network or the internet. The TCP resides in the transport OSI layer and its role in the communications between devices is to ensure the establishment of a connection and that all data has been delivered correctly. It does this by working in collaboration with Internet Protocol rules.
+- TCP : TCP stands for Transmission Control Protocol and is a standard protocol for ensuring successful communication deliveries between devices over a network or the internet. The TCP resides in the transport OSI layer and its role in communications between devices is to ensure the establishment of a connection and that all data has been delivered correctly. It does this by working in collaboration with Internet Protocol rules.
   TCP delivery has continually been developing between client & server since its creation back in the early 1970's. It was first designed for the US department of defence and then in the 1980's helped with the development of the internet to be a world wide network. One way TCP works between Server and client devices by a web server setting up a connection when asked by the HTTP layer, then the TCP stack will divide the file into numbered packets to be delivered and send them to the IP layer for delivery. 
   The TCP layer in the client device will wait and confirm all numbered packets have been received correctly, then assembles all the packets back into the file and send it to the application required.
 
 - HTTP and HTTPS  : Hypertext Transfer Protocol is a set of communication rules between client & server. This protocol is the communications foundation of the internet for browsers and servers, but data transmitted is unencrypted. So in the 1990's a more secure protocol of http was developed called https = Hypertext Transfer Protocol Secure. The http is an application layer protocol that interprets different types of requests and responses between client & server. When wanting to view data from a website the client http protocol will send a series of "GET" requests to the server to ask for all the information it needs to load the webpage. To send information to the server (like a form), the client http protocol will send a "PUT" request.
   The server will also send back coded responses to these requests, some examples are: 400 = Bad Request, 404 = Resource Not Found.
-  Https works in the same way but adds an extra layer of security by combining the requests & responses with SSL & TLS certificates. These are shared by the client and server before exchanging data to verify a trusted connection.
+  Https works in the same way but adds an extra layer of security by combining requests & responses with SSL & TLS certificates. These are shared by the client and server before exchanging data to verify a trusted connection.
 
 - Web Browsers (requests, rendering and developer tools)  : Web Browsers are an application software for accessing and viewing websites over the internet. Using the http / https protocols between a client and server to receive the information requested, the browser will then compile the web documents to render them in html which is used to design web pages and display to the user the web sites content. Web browser features can include: a home page, URL address bar, navigation buttons, bookmark options, history of visited websites and refresh button.
 Current web browsers will also include developer tools. These are tools that allow users to inspect & debug the rendered web sites html , css and javascript properties. Developers will use these to help in building better websites, diagnosing any problems and measuring its performance all in real time as they view / build the web page.
@@ -80,7 +80,7 @@ Available at: https://www.okta.com/au/identity-101/http-vs-https/
  - Interpreters / Compilers Features & Differences:
     - Interpreters: 
         - An interpreter is a computer program that reads source code in a high-level language like Python, Javascript and Ruby, and executes it line by line while the program is running. Because it converts into a lower-level language (machine code) in a sequential process, they generally tend to be slower than compilers.
-        - But Interpreters are better for debugging code, because as it runs each line sequentially until a error occurs, they can easily be idendified and fixed.
+        - But Interpreters are better for debugging code, because as it runs each line sequentially until a error occurs, they can easily be identified and fixed.
         - Memory required is less than a compiler.
         - If interrupted at any point, must restart from the beginning.
         - Relatively more flexible.
@@ -88,7 +88,7 @@ Available at: https://www.okta.com/au/identity-101/http-vs-https/
     - Compilers: 
         - A compiler is a program that executes a high-level language such as C, C++ and Java, into a lower-level language (machine code), in whole for the entire program. The resulting compiled code of the entire program can be executed directly by a computers OS, which is done by producing the output as an executable program file.
         - Compilers will operate quicker than interpreters.
-        - After compiling the entire program code it will return all/any errors. This makes it much harder to locate and fix them.
+        - After compiling the entire program code it will return any errors. This makes it much harder to locate and fix them.
         - Larger in size compared to interpreters.
         - Not flexible.
 
@@ -107,7 +107,7 @@ Available at: https://builtin.com/software-engineering-perspectives/compiler-vs-
 Compare 2 Programming Languages.
 - Benefits.
   - Python:
-    - mostly used for backend development.
+    - mostly used for back end development.
     - easy to learn and the simple syntax makes faster to write which increases productivity.
     - well known for its ready to use modules and libraries.
     - multiple varieties of numeric data types.
@@ -146,13 +146,13 @@ Available at: https://thecodest.co/blog/pros-and-cons-of-python/
 ~~~
 
 Hi Alex,
-  Thankyou for reaching out via email and yes we can definitely provide the website services the SAM is wanting to encourage people to visit. I will
+  Thankyou for reaching out via email and yes we can definitely provide website services the SAM is wanting to encourage people to visit. I will
 briefly explain who we are , what we do and our thoughts on how we can provide a dynamic website for the SAM.
   We are 'Awesome Websites Australia' and we have been building, evaluating and supporting company & community websites for over 15 years. We are based in
 Sydney but have many clients all around the country and overseas. We have all the technologies and tools required to facilitate this, which allows us to be very cost effective and provide a full stack service from beginning to end so you can put your mind at rest that everything is covered. These services include:
   a.  Our customer service team will liaise with you directly and in person to specifically gather the SAM requirements, information needed and images to be used.
-  b.  Our design team uses their own wireframing program, colour palettes matching, understanding of design standards to facilitate people with disabilities.
-  c.  The development team will build the website in house using the best practice standards for html, css and javascript.
+  b.  Our design team uses their own wire framing program, colour palettes matching, understanding of design standards to facilitate people with disabilities.
+  c.  The development team will build the website in house, using the best practice standards for html, css and javascript.
   d.  We can do all the legal registrations needed, deploy live to the internet and update whenever required. All our teams are trained and will abide by the Australian regulations for privacy & security of company and personal information.  
   Please visit our website to view the types of clients and websites we have worked with: www.awesomewebsitesaustralia.com.au/
 
@@ -177,21 +177,21 @@ Awesome Websites Australia.
 ~~~
 Situation 1: - Being employed as a Product Owner, we designed, produced and sold medication packing materials. We also included in our packaging supplies a software program for pharmacies to use to print the patients medication details on these packaging materials. This software program had been used for a long time before my employment and was becoming very old & outdated for the changing legal requirements required. So the decision was made to create and release a new software program. The company appointed a software development company for this task and I was in the lead team for project management.
   We supplied the developers a copy of our current program and the new requirements we needed in the new program.
-  The Developers supplied us with a beta version for testing / reviewing BUT the program was not what we were expecting and didnt meet the needs, our clients would require for efficient productivity.
+  The Developers supplied us with a beta version for testing / reviewing BUT the program was not what we were expecting and didn't meet the needs, our clients would require for efficient productivity.
   Eventually with alot of back and forth and numerous beta testing versions, we did get the program our clients would be happy with & released.
 
 My Feelings On Situation 1: - I was excited & looked forward on being involved in this project as I had never done anything like this before with software or internet based products. But I remember on that first beta test review being very disappointed and nervous that we had stuffed this up !! On reflection my feelings are it was a very big learning curve on how to approach such a project.
 
 Analysis And Future Courses Of Action 1:  - We were not specific enough in relaying the requirements our new program needed to meet our clients needs or even the designs we had in our heads for it. In our documents the requirements were to general and then the developers did their own interpretation of what they thought we needed.
-  In future I see that any / all requirement documents will need to be very specific. They will need to include the design we are thinking of , very specific legal reqiurements needed and the exact workflow we expect to happen in the program to meet our clients productivity.
+  In future I see that any / all requirement documents will need to be very specific. They will need to include the design we are thinking of , very specific legal requirements needed and the exact workflow we expect to happen in the program to meet our clients productivity.
 
-Situation 2: - One of my first jobs was in a Customer Service role. While working, the company dispatched a number of faulty products out to customers. Taking a number of disgruntled customers phone calls regarding these orders, I had to follow the company resolution procedures on how to resolve the issue of these faulty products supplied. In brief the company procedure was; Customers responsability to return the product, company inspected it to confirm was faulty or not, then a replacement was shipped to customer if faulty or returned to customer if not.
+Situation 2: - One of my first jobs was in a Customer Service role. While working, the company dispatched a number of faulty products out to customers. Taking a number of disgruntled customers phone calls regarding these orders, I had to follow the company resolution procedures on how to resolve the issue of these faulty products supplied. In brief the company procedure was; Customers responsibility to return the product, company inspected it to confirm was faulty or not, then a replacement was shipped to customer if faulty or returned to customer if not.
 
 My Feelings On Situation 2: - My feelings at the time I remember were conflicted on following the company procedures to resolve these faulty products for customers. On one hand I knew I had to do my job professionally and follow the company procedures but on the other hand I did not agree with the process and resulting situation it put the customers in, when the issue was not the customers fault.
 
-Analysis And Future Courses Of Action 2:  - Following the company procedures was the correct course of action, as that is what my role included in the Customer Services Team. On reflection of my conflicted feelings regarding these procedures: in the future my course of action would be to make my concerns known in the customer service meetings and ask if we could look at changing the procedure slightly to increase customer satisfaction of a outcome to the issue. One of the outcomes to suggest would be:
+Analysis And Future Courses Of Action 2:  - Following the company procedures was the correct course of action, as that is what my role included in the Customer Services Team. On reflection of my conflicted feelings regarding these procedures: in the future my course of action would be to make my concerns known in customer service meetings and ask if we could look at changing the procedure slightly to increase customer satisfaction of an outcome to the issue. One of the outcomes to suggest would be:
 - The company to first organise a replacement product.
-- The company pick up the faulty product.
+- Then company to pick up the faulty product.
 - Then upon inspection is either dealt with by the manufacturer, or refurbished for future sale.
 
 ~~~
@@ -201,19 +201,19 @@ Analysis And Future Courses Of Action 2:  - Following the company procedures was
 Action Plan For Networking Events Or Workshops: 
 Event 1:  - I am attending for my current job: ![MongoDB.local Sydney](https://www.mongodb.com/events/mongodb-local/sydney)
  In my current job, the software application the company supplies uses a MongoDB database. My knowledge about MongoDB is limited to how our services use and relate to it and from what the companies Dev team have explained to me.
- Even though I am just starting out on my full stack development journey, my particular interest is in the backend area of development (databases, API etc), so from the different workshops available I am curious to find out how MongDB is being used more widely in the industry. 
+ Even though I am just starting out on my full stack development journey, my particular interest is in the back end area of development (databases, API etc), so from the different workshops available I am curious to find out how MongDB is being used more widely in the industry. 
  
 Action Plan 1: 
- - Workshops I plan to attend are 'Methodology and Principles of Data Modelling for MongDB' + 'Building event-driven applications with Atlas Stream Processing', im hoping these workshops will provide insite and knowledge into some of the features mongoDB offer that I might be able to bring to our team at work.
+ - Workshops I plan to attend are 'Methodology and Principles of Data Modelling for MongDB' + 'Building event-driven applications with Atlas Stream Processing', im hoping these workshops will provide insight and knowledge into some of the features mongoDB offer that I might be able to bring to our team at work.
  - Networking side of the event, I would like to speak to some developers and find out how they use MongDB and in general what they do, the applications they work on and how they started out in the industry. As im trying to start out in this industry, id like to speak to some experienced developers on how they did it and their advice on what to do / not to do.
 
 Event 2:  - Online workshop Coder Academy, 20th June 2024, 6pm: 'Interviews, Preparation and How to get the most out of them!' - this is a webinar with a experienced software engineer who is experienced in helping other developers land new jobs, skills or promotions.
 
 Action Plan 2:
- - Being that I have not had to many different jobs and therefore not done many interviews, my action plan here is to note down with great detail, his experienced guidance on how we should conduct ourself , how we should show our skills to prospective employers in both technical and non technical areas for software development jobs. Looking forward to this and knowing 'How To Stand Out Among The Crowd' when it comes to interviewing for a new position.
+ - Being that I have not had to many different jobs and therefore not done many interviews, my action plan here is to note down with great detail, his experienced guidance on how we should conduct ourselves, how we should show our skills to prospective employers in both technical and non technical areas for software development jobs. Looking forward to this and knowing 'How To Stand Out Among The Crowd' when it comes to interviewing for a new position.
 
 
-Event 3:  - Looking forward in the future to any Coder Academy meetups or industry speaker workshops for Sydney students (none to date!).
+Event 3:  - Looking forward in the future to any Coder Academy meet ups or industry speaker workshops for Sydney students (none to date!).
 
 Action Plan 3:
  - For any workshops from industry speakers, Im very interested to know their roles and daily tasks as a developer and where they feel the industry in moving in the future. Then what they are looking for in starting out junior developers and any advice they can offer.
