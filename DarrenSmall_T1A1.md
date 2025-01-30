@@ -1,4 +1,6 @@
 # T1A1 Workbook Assignment
+# Adding additional Features:
+##  Testing  the branch
 
 ### Question 1 Answers: 
 ~~~
@@ -107,10 +109,10 @@ Available at: https://builtin.com/software-engineering-perspectives/compiler-vs-
 Compare 2 Programming Languages.
 - Benefits.
   - Python: 
-  - The Python language has a simple syntax and format which makes it easier to learn and faster to write code, which for developers will increase their productivity in programming projects. It is also known for its ready to use modules, packages and libraries that can be imported into any Python files or projects. Compared to JS, Python considers everything as an object and supports mutability and it has multiple varieties of numeric data types. It is free and open source with a large world wide community of followers for help and support.
+  - The Python language has a simple syntax and format which makes it easier to learn and faster to write code, which for developers will increase their productivity in programming projects. It is also known for its ready to use modules, packages and libraries that can be imported into any Python files or projects. Compared to JS, Python considers everything as an object and supports mutability and it has multiple varieties of numeric data types. It is free and open source with a large world-wide community of followers for help and support.
 
   - Javascript:
-  - The Javascript language is used for user functionality in web development and is preferred in this area for its high performance speed and real time interactions compared to Python. It can be used for both the front end & back end sides of applications and also has a multi-threading feature making it highly scalable for application growth. Another benefit is it and can easily integrate with other languages like Python.
+  - The Javascript language is used for user functionality in web development and is preferred in this area for its high-performance speed and real time interactions compared to Python. It can be used for both the front-end & back-end sides of applications and also has a multi-threading feature making it highly scalable for application growth. Another benefit is it and can easily integrate with other languages like Python.
 
 - Drawbacks.
   - Python:
